@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /var/www/NativeCamp/user/Controller</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="_css/bootstrap.min.css?v=11.0.9" rel="stylesheet" type="text/css">
+  <link href="_css/nv.d3.min.css?v=11.0.9" rel="stylesheet" type="text/css">
+  <link href="_css/style.css?v=11.0.9" rel="stylesheet" type="text/css">
+  <link href="_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">/var/www/NativeCamp/user/Controller</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PaymentController.php.html#6">PaymentController</a></td><td class="text-right">3%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PaymentController.php.html#6">PaymentController</a></td><td class="text-right">25674130</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PaymentController.php.html#75"><abbr title="PaymentController::beforeFilter">beforeFilter</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#1267"><abbr title="PaymentController::callback">callback</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#1272"><abbr title="PaymentController::checkCallBack">checkCallBack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#1299"><abbr title="PaymentController::savePdataLog">savePdataLog</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#1314"><abbr title="PaymentController::t_start">t_start</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#1390"><abbr title="PaymentController::charge_company_select">charge_company_select</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#1451"><abbr title="PaymentController::z_start">z_start</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#1727"><abbr title="PaymentController::payment_credit_register_complete">payment_credit_register_complete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#1774"><abbr title="PaymentController::coupon_payment_credit_charge_complete">coupon_payment_credit_charge_complete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#1807"><abbr title="PaymentController::payment_credit_charge_complete">payment_credit_charge_complete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#1915"><abbr title="PaymentController::payment_credit_retry_complete">payment_credit_retry_complete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#1973"><abbr title="PaymentController::payment_credit_change_complete">payment_credit_change_complete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#2047"><abbr title="PaymentController::handleCreditResponseError">handleCreditResponseError</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#2136"><abbr title="PaymentController::zeuspay">zeuspay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#5319"><abbr title="PaymentController::saveStep">saveStep</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#5367"><abbr title="PaymentController::corporateZeuspay">corporateZeuspay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#7197"><abbr title="PaymentController::update_card_fail_flg">update_card_fail_flg</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#7226"><abbr title="PaymentController::_error_log_set">_error_log_set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#7416"><abbr title="PaymentController::free_digest_member_t_start">free_digest_member_t_start</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#7453"><abbr title="PaymentController::coupon_form">coupon_form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#7595"><abbr title="PaymentController::payment_credit_register">payment_credit_register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#7726"><abbr title="PaymentController::zeus_credit_register">zeus_credit_register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#8007"><abbr title="PaymentController::checkIfChargedAfterChallenge">checkIfChargedAfterChallenge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#8125"><abbr title="PaymentController::wp_credit_register">wp_credit_register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#8312"><abbr title="PaymentController::payment_credit_register_confirm">payment_credit_register_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#8324"><abbr title="PaymentController::zeus_credit_register_confirm">zeus_credit_register_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#8368"><abbr title="PaymentController::wp_credit_register_confirm">wp_credit_register_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#8661"><abbr title="PaymentController::paypal_payment_credit_register_confirm">paypal_payment_credit_register_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#8723"><abbr title="PaymentController::paypal_payment_credit_register_process">paypal_payment_credit_register_process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#8930"><abbr title="PaymentController::sp_paypal_payment_credit_register_process">sp_paypal_payment_credit_register_process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#9004"><abbr title="PaymentController::wp_credit_register_form">wp_credit_register_form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#9078"><abbr title="PaymentController::payment_credit_change">payment_credit_change</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#9109"><abbr title="PaymentController::zeus_credit_change">zeus_credit_change</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#9290"><abbr title="PaymentController::paypal_payment_credit_change_process">paypal_payment_credit_change_process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#9340"><abbr title="PaymentController::wp_credit_change">wp_credit_change</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#9397"><abbr title="PaymentController::wp_credit_change_form">wp_credit_change_form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#9456"><abbr title="PaymentController::payment_credit_charge">payment_credit_charge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#9508"><abbr title="PaymentController::zeus_credit_charge">zeus_credit_charge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#10044"><abbr title="PaymentController::wp_credit_charge">wp_credit_charge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#10181"><abbr title="PaymentController::payment_credit_charge_confirm">payment_credit_charge_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#10214"><abbr title="PaymentController::retrial_confiscate_coins">retrial_confiscate_coins</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#10279"><abbr title="PaymentController::zeus_credit_charge_confirm">zeus_credit_charge_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#10371"><abbr title="PaymentController::wp_credit_charge_confirm">wp_credit_charge_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#10679"><abbr title="PaymentController::paypal_payment_credit_charge_confirm">paypal_payment_credit_charge_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#10734"><abbr title="PaymentController::wp_credit_charge_form">wp_credit_charge_form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#10868"><abbr title="PaymentController::paypal_payment_credit_charge_process">paypal_payment_credit_charge_process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#11030"><abbr title="PaymentController::payment_credit_retry">payment_credit_retry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#11052"><abbr title="PaymentController::zeus_credit_retry">zeus_credit_retry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#11378"><abbr title="PaymentController::wp_credit_retry">wp_credit_retry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#11486"><abbr title="PaymentController::payment_credit_retry_confirm">payment_credit_retry_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#11497"><abbr title="PaymentController::zeus_credit_retry_confirm">zeus_credit_retry_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#11540"><abbr title="PaymentController::wp_credit_retry_confirm">wp_credit_retry_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#11832"><abbr title="PaymentController::paypal_payment_credit_retry_confirm">paypal_payment_credit_retry_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#11875"><abbr title="PaymentController::wp_credit_retry_form">wp_credit_retry_form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#11925"><abbr title="PaymentController::paypal_payment_credit_retry_process">paypal_payment_credit_retry_process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#12003"><abbr title="PaymentController::checkUser">checkUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#12119"><abbr title="PaymentController::formDataValidation">formDataValidation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#12179"><abbr title="PaymentController::withdraw">withdraw</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#12277"><abbr title="PaymentController::withdraw_confirm">withdraw_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#12311"><abbr title="PaymentController::checkToken">checkToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#12335"><abbr title="PaymentController::unsetToken">unsetToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#12345"><abbr title="PaymentController::createPaymentTransaction">createPaymentTransaction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#12681"><abbr title="PaymentController::getPaymentTransaction">getPaymentTransaction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#12720"><abbr title="PaymentController::mobapp_payment_credit_register_receivable">mobapp_payment_credit_register_receivable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#12820"><abbr title="PaymentController::mobapp_credit_change">mobapp_credit_change</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#12961"><abbr title="PaymentController::mobapp_wp_credit_change">mobapp_wp_credit_change</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#13010"><abbr title="PaymentController::mobapp_wp_credit_change_form">mobapp_wp_credit_change_form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#13106"><abbr title="PaymentController::mobapp_credit_change_form">mobapp_credit_change_form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#13251"><abbr title="PaymentController::mobapp_paypal_credit_change_process">mobapp_paypal_credit_change_process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#13329"><abbr title="PaymentController::mobapp_credit_retry">mobapp_credit_retry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#13718"><abbr title="PaymentController::mobapp_credit_retry_form">mobapp_credit_retry_form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#13911"><abbr title="PaymentController::mobapp_wp_credit_retry">mobapp_wp_credit_retry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#13982"><abbr title="PaymentController::mobapp_wp_credit_retry_form">mobapp_wp_credit_retry_form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#14068"><abbr title="PaymentController::mobapp_wp_credit_retry_confirm">mobapp_wp_credit_retry_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#14363"><abbr title="PaymentController::mobapp_credit_retry_confirm">mobapp_credit_retry_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#14449"><abbr title="PaymentController::mobapp_paypal_credit_retry_confirm">mobapp_paypal_credit_retry_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#14504"><abbr title="PaymentController::mobapp_paypal_credit_retry_process">mobapp_paypal_credit_retry_process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#14576"><abbr title="PaymentController::mobapp_credit_register_trial_notice">mobapp_credit_register_trial_notice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#14624"><abbr title="PaymentController::mobapp_credit_register">mobapp_credit_register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#14873"><abbr title="PaymentController::mobapp_credit_register_form">mobapp_credit_register_form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#15145"><abbr title="PaymentController::sp_credit_register_form">sp_credit_register_form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#15247"><abbr title="PaymentController::mobapp_credit_register_confirm">mobapp_credit_register_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#15308"><abbr title="PaymentController::mobapp_paypal_credit_register_confirm">mobapp_paypal_credit_register_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#15371"><abbr title="PaymentController::mobapp_paypal_credit_register_process">mobapp_paypal_credit_register_process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#15578"><abbr title="PaymentController::mobapp_credit_register_notice_to_user">mobapp_credit_register_notice_to_user</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#15823"><abbr title="PaymentController::mobapp_credit_register_native_plan">mobapp_credit_register_native_plan</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#15978"><abbr title="PaymentController::mobapp_credit_register_questionnaire">mobapp_credit_register_questionnaire</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#16002"><abbr title="PaymentController::mobapp_wp_credit">mobapp_wp_credit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#16145"><abbr title="PaymentController::mobapp_wp_credit_register">mobapp_wp_credit_register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#16279"><abbr title="PaymentController::mobapp_wp_credit_register_form">mobapp_wp_credit_register_form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#16342"><abbr title="PaymentController::mobapp_wp_credit_register_confirm">mobapp_wp_credit_register_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#16647"><abbr title="PaymentController::mobapp_credit_charge">mobapp_credit_charge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#17205"><abbr title="PaymentController::mobapp_credit_charge_form">mobapp_credit_charge_form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#17734"><abbr title="PaymentController::mobapp_wp_credit_charge">mobapp_wp_credit_charge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#17869"><abbr title="PaymentController::mobapp_wp_credit_charge_form">mobapp_wp_credit_charge_form</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#17996"><abbr title="PaymentController::mobapp_wp_credit_charge_confirm">mobapp_wp_credit_charge_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#18328"><abbr title="PaymentController::mobapp_credit_charge_confirm">mobapp_credit_charge_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#18471"><abbr title="PaymentController::mobapp_paypal_credit_charge_confirm">mobapp_paypal_credit_charge_confirm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#18540"><abbr title="PaymentController::mobapp_paypal_credit_charge_process">mobapp_paypal_credit_charge_process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#18675"><abbr title="PaymentController::mobappSetUpTransaction">mobappSetUpTransaction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#18735"><abbr title="PaymentController::checkTokenMobapp">checkTokenMobapp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#18743"><abbr title="PaymentController::unsetTokenMobapp">unsetTokenMobapp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#18756"><abbr title="PaymentController::getUserData">getUserData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#18773"><abbr title="PaymentController::zeus_card_process_mobapp">zeus_card_process_mobapp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19075"><abbr title="PaymentController::handleCreditResponseErrorMobapp">handleCreditResponseErrorMobapp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19139"><abbr title="PaymentController::failure_family">failure_family</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19145"><abbr title="PaymentController::sp_failure_family">sp_failure_family</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19155"><abbr title="PaymentController::getUserId">getUserId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19186"><abbr title="PaymentController::decodeSendPointData">decodeSendPointData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19233"><abbr title="PaymentController::failureFamily">failureFamily</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19259"><abbr title="PaymentController::getAndSetCardInfo">getAndSetCardInfo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19306"><abbr title="PaymentController::setPaymentViewVars">setPaymentViewVars</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19332"><abbr title="PaymentController::failure_settlement">failure_settlement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19353"><abbr title="PaymentController::mobapp_failure_settlement">mobapp_failure_settlement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19369"><abbr title="PaymentController::sp_failure_settlement">sp_failure_settlement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19386"><abbr title="PaymentController::getWPUserData">getWPUserData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19413"><abbr title="PaymentController::updatePaymentTransaction">updatePaymentTransaction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19434"><abbr title="PaymentController::getHostedPage">getHostedPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19945"><abbr title="PaymentController::deleteUserToken">deleteUserToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19961"><abbr title="PaymentController::memcacheWPPayment">memcacheWPPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19976"><abbr title="PaymentController::memcacheCardType">memcacheCardType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#19990"><abbr title="PaymentController::processWPPayment">processWPPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#21785"><abbr title="PaymentController::mobappGetUserData">mobappGetUserData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#21920"><abbr title="PaymentController::getRetryPaymentData">getRetryPaymentData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#22122"><abbr title="PaymentController::changePaymentPlanIfTelecomUser">changePaymentPlanIfTelecomUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#22161"><abbr title="PaymentController::notice_coupon_code_plan">notice_coupon_code_plan</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#22187"><abbr title="PaymentController::notice_coupon_code_plan_change">notice_coupon_code_plan_change</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#22205"><abbr title="PaymentController::complimentaryPlanValidation">complimentaryPlanValidation</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#22245"><abbr title="PaymentController::updateUserCardCompanyToZeus">updateUserCardCompanyToZeus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#22275"><abbr title="PaymentController::ifComPlanUser">ifComPlanUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#22292"><abbr title="PaymentController::getCorporatePaymentPlan">getCorporatePaymentPlan</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#22381"><abbr title="PaymentController::mobapp_corporate_register_card">mobapp_corporate_register_card</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#22503"><abbr title="PaymentController::slackZeusErrorPostMsg">slackZeusErrorPostMsg</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#22530"><abbr title="PaymentController::processPayPalPayment">processPayPalPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#23400"><abbr title="PaymentController::addCoinRewardForReenroll">addCoinRewardForReenroll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#23482"><abbr title="PaymentController::paypalSaveBillingAgreement">paypalSaveBillingAgreement</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#23935"><abbr title="PaymentController::setSupportPayPal">setSupportPayPal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#24001"><abbr title="PaymentController::sms_questionnaire">sms_questionnaire</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#24010"><abbr title="PaymentController::restrictForTrialNotConducted">restrictForTrialNotConducted</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#24019"><abbr title="PaymentController::zeuspayGetChallenge">zeuspayGetChallenge</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#24821"><abbr title="PaymentController::reportZeusChallengeResponse">reportZeusChallengeResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#25177"><abbr title="PaymentController::sendZeusResponseSlackMessage">sendZeusResponseSlackMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#25219"><abbr title="PaymentController::processRedirection">processRedirection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#25236"><abbr title="PaymentController::getAfteeHostedPage">getAfteeHostedPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#25591"><abbr title="PaymentController::getAfteePaymentResult">getAfteePaymentResult</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#25627"><abbr title="PaymentController::afteeAuthentication">afteeAuthentication</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#25638"><abbr title="PaymentController::processAfteePayment">processAfteePayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#26722"><abbr title="PaymentController::slackAfteePErrorPostMsg">slackAfteePErrorPostMsg</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#26741"><abbr title="PaymentController::handleAfteeAuthenticationSuccess">handleAfteeAuthenticationSuccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#27290"><abbr title="PaymentController::handleAfteeDirectPaymentSuccess">handleAfteeDirectPaymentSuccess</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#27973"><abbr title="PaymentController::sendNatGeoEbookPurchaseEmailSlack">sendNatGeoEbookPurchaseEmailSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#27996"><abbr title="PaymentController::sendEbookPurchaseEmailSlack">sendEbookPurchaseEmailSlack</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#28110"><abbr title="PaymentController::isForTrialReenrollment">isForTrialReenrollment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#28133"><abbr title="PaymentController::checkZeusChallengeResponse">checkZeusChallengeResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#28142"><abbr title="PaymentController::setPaymentPlanDetails">setPaymentPlanDetails</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#28241"><abbr title="PaymentController::corpIndividualData">corpIndividualData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#28415"><abbr title="PaymentController::corporate_change_individual_card_payment">corporate_change_individual_card_payment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#28442"><abbr title="PaymentController::corp_user_change_personal_card">corp_user_change_personal_card</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#28745"><abbr title="PaymentController::paypal_student_discount_user_change_card">paypal_student_discount_user_change_card</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#29249"><abbr title="PaymentController::student_discount_user_change_card">student_discount_user_change_card</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#29578"><abbr title="PaymentController::mobapp_corporate_change_individual_card_payment">mobapp_corporate_change_individual_card_payment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#30057"><abbr title="PaymentController::processChildReceivablePayment">processChildReceivablePayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#30216"><abbr title="PaymentController::processChildPaypalPayment">processChildPaypalPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#30518"><abbr title="PaymentController::processChildAfteePayment">processChildAfteePayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#30855"><abbr title="PaymentController::mobapp_credit_retry_complete">mobapp_credit_retry_complete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#30884"><abbr title="PaymentController::setLitePaymentInfoView">setLitePaymentInfoView</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#30940"><abbr title="PaymentController::liteUserAddCoinRewardForReenroll">liteUserAddCoinRewardForReenroll</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#31018"><abbr title="PaymentController::processChangePlan">processChangePlan</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#31363"><abbr title="PaymentController::processChildWithdrawal">processChildWithdrawal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#31500"><abbr title="PaymentController::paypal_payment_change_plan_process">paypal_payment_change_plan_process</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#32321"><abbr title="PaymentController::zeus_payment_change_plan">zeus_payment_change_plan</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#32480"><abbr title="PaymentController::payment_credit_register_receivable">payment_credit_register_receivable</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#32585"><abbr title="PaymentController::createCorporateIndividualPayment">createCorporateIndividualPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#32769"><abbr title="PaymentController::getDefaultPlanId">getDefaultPlanId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#32800"><abbr title="PaymentController::selectCorpType">selectCorpType</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#32840"><abbr title="PaymentController::createLitePlanTransaction">createLitePlanTransaction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#32969"><abbr title="PaymentController::applyCouponPayment">applyCouponPayment</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#33096"><abbr title="PaymentController::setCouponUseData">setCouponUseData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#33238"><abbr title="PaymentController::paypalWebhook">paypalWebhook</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#33379"><abbr title="PaymentController::createChocottoPlanTransaction">createChocottoPlanTransaction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#33463"><abbr title="PaymentController::stripepay">stripepay</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#33518"><abbr title="PaymentController::stripepay_manual">stripepay_manual</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#33529"><abbr title="PaymentController::handleStripePaymentResult">handleStripePaymentResult</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#36289"><abbr title="PaymentController::stripe_error_log_set">stripe_error_log_set</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#36446"><abbr title="PaymentController::slackStripeErrorPostMsg">slackStripeErrorPostMsg</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#36474"><abbr title="PaymentController::getStripeHostedPage">getStripeHostedPage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#36889"><abbr title="PaymentController::sendStripeResponseSlackMessage">sendStripeResponseSlackMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="PaymentController.php.html#36917"><abbr title="PaymentController::updateUserToken">updateUserToken</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="PaymentController.php.html#2136"><abbr title="PaymentController::zeuspay">zeuspay</abbr></a></td><td class="text-right">298662</td></tr>
+       <tr><td><a href="PaymentController.php.html#33529"><abbr title="PaymentController::handleStripePaymentResult">handleStripePaymentResult</abbr></a></td><td class="text-right">202050</td></tr>
+       <tr><td><a href="PaymentController.php.html#19990"><abbr title="PaymentController::processWPPayment">processWPPayment</abbr></a></td><td class="text-right">105300</td></tr>
+       <tr><td><a href="PaymentController.php.html#5367"><abbr title="PaymentController::corporateZeuspay">corporateZeuspay</abbr></a></td><td class="text-right">89102</td></tr>
+       <tr><td><a href="PaymentController.php.html#25638"><abbr title="PaymentController::processAfteePayment">processAfteePayment</abbr></a></td><td class="text-right">33672</td></tr>
+       <tr><td><a href="PaymentController.php.html#24019"><abbr title="PaymentController::zeuspayGetChallenge">zeuspayGetChallenge</abbr></a></td><td class="text-right">22952</td></tr>
+       <tr><td><a href="PaymentController.php.html#22530"><abbr title="PaymentController::processPayPalPayment">processPayPalPayment</abbr></a></td><td class="text-right">11772</td></tr>
+       <tr><td><a href="PaymentController.php.html#26741"><abbr title="PaymentController::handleAfteeAuthenticationSuccess">handleAfteeAuthenticationSuccess</abbr></a></td><td class="text-right">10920</td></tr>
+       <tr><td><a href="PaymentController.php.html#19434"><abbr title="PaymentController::getHostedPage">getHostedPage</abbr></a></td><td class="text-right">8556</td></tr>
+       <tr><td><a href="PaymentController.php.html#27290"><abbr title="PaymentController::handleAfteeDirectPaymentSuccess">handleAfteeDirectPaymentSuccess</abbr></a></td><td class="text-right">8190</td></tr>
+       <tr><td><a href="PaymentController.php.html#12345"><abbr title="PaymentController::createPaymentTransaction">createPaymentTransaction</abbr></a></td><td class="text-right">7310</td></tr>
+       <tr><td><a href="PaymentController.php.html#9508"><abbr title="PaymentController::zeus_credit_charge">zeus_credit_charge</abbr></a></td><td class="text-right">6006</td></tr>
+       <tr><td><a href="PaymentController.php.html#24821"><abbr title="PaymentController::reportZeusChallengeResponse">reportZeusChallengeResponse</abbr></a></td><td class="text-right">5852</td></tr>
+       <tr><td><a href="PaymentController.php.html#18773"><abbr title="PaymentController::zeus_card_process_mobapp">zeus_card_process_mobapp</abbr></a></td><td class="text-right">5402</td></tr>
+       <tr><td><a href="PaymentController.php.html#36474"><abbr title="PaymentController::getStripeHostedPage">getStripeHostedPage</abbr></a></td><td class="text-right">5402</td></tr>
+       <tr><td><a href="PaymentController.php.html#17205"><abbr title="PaymentController::mobapp_credit_charge_form">mobapp_credit_charge_form</abbr></a></td><td class="text-right">5112</td></tr>
+       <tr><td><a href="PaymentController.php.html#31500"><abbr title="PaymentController::paypal_payment_change_plan_process">paypal_payment_change_plan_process</abbr></a></td><td class="text-right">4830</td></tr>
+       <tr><td><a href="PaymentController.php.html#16647"><abbr title="PaymentController::mobapp_credit_charge">mobapp_credit_charge</abbr></a></td><td class="text-right">4556</td></tr>
+       <tr><td><a href="PaymentController.php.html#1451"><abbr title="PaymentController::z_start">z_start</abbr></a></td><td class="text-right">4160</td></tr>
+       <tr><td><a href="PaymentController.php.html#23482"><abbr title="PaymentController::paypalSaveBillingAgreement">paypalSaveBillingAgreement</abbr></a></td><td class="text-right">4032</td></tr>
+       <tr><td><a href="PaymentController.php.html#25236"><abbr title="PaymentController::getAfteeHostedPage">getAfteeHostedPage</abbr></a></td><td class="text-right">3906</td></tr>
+       <tr><td><a href="PaymentController.php.html#29578"><abbr title="PaymentController::mobapp_corporate_change_individual_card_payment">mobapp_corporate_change_individual_card_payment</abbr></a></td><td class="text-right">3306</td></tr>
+       <tr><td><a href="PaymentController.php.html#28745"><abbr title="PaymentController::paypal_student_discount_user_change_card">paypal_student_discount_user_change_card</abbr></a></td><td class="text-right">2550</td></tr>
+       <tr><td><a href="PaymentController.php.html#29249"><abbr title="PaymentController::student_discount_user_change_card">student_discount_user_change_card</abbr></a></td><td class="text-right">2256</td></tr>
+       <tr><td><a href="PaymentController.php.html#11052"><abbr title="PaymentController::zeus_credit_retry">zeus_credit_retry</abbr></a></td><td class="text-right">2162</td></tr>
+       <tr><td><a href="PaymentController.php.html#31018"><abbr title="PaymentController::processChangePlan">processChangePlan</abbr></a></td><td class="text-right">2162</td></tr>
+       <tr><td><a href="PaymentController.php.html#28442"><abbr title="PaymentController::corp_user_change_personal_card">corp_user_change_personal_card</abbr></a></td><td class="text-right">2070</td></tr>
+       <tr><td><a href="PaymentController.php.html#13329"><abbr title="PaymentController::mobapp_credit_retry">mobapp_credit_retry</abbr></a></td><td class="text-right">1892</td></tr>
+       <tr><td><a href="PaymentController.php.html#15578"><abbr title="PaymentController::mobapp_credit_register_notice_to_user">mobapp_credit_register_notice_to_user</abbr></a></td><td class="text-right">1482</td></tr>
+       <tr><td><a href="PaymentController.php.html#8007"><abbr title="PaymentController::checkIfChargedAfterChallenge">checkIfChargedAfterChallenge</abbr></a></td><td class="text-right">1406</td></tr>
+       <tr><td><a href="PaymentController.php.html#9109"><abbr title="PaymentController::zeus_credit_change">zeus_credit_change</abbr></a></td><td class="text-right">1260</td></tr>
+       <tr><td><a href="PaymentController.php.html#10371"><abbr title="PaymentController::wp_credit_charge_confirm">wp_credit_charge_confirm</abbr></a></td><td class="text-right">1260</td></tr>
+       <tr><td><a href="PaymentController.php.html#8368"><abbr title="PaymentController::wp_credit_register_confirm">wp_credit_register_confirm</abbr></a></td><td class="text-right">1190</td></tr>
+       <tr><td><a href="PaymentController.php.html#17996"><abbr title="PaymentController::mobapp_wp_credit_charge_confirm">mobapp_wp_credit_charge_confirm</abbr></a></td><td class="text-right">1190</td></tr>
+       <tr><td><a href="PaymentController.php.html#11540"><abbr title="PaymentController::wp_credit_retry_confirm">wp_credit_retry_confirm</abbr></a></td><td class="text-right">1122</td></tr>
+       <tr><td><a href="PaymentController.php.html#16342"><abbr title="PaymentController::mobapp_wp_credit_register_confirm">mobapp_wp_credit_register_confirm</abbr></a></td><td class="text-right">1056</td></tr>
+       <tr><td><a href="PaymentController.php.html#14068"><abbr title="PaymentController::mobapp_wp_credit_retry_confirm">mobapp_wp_credit_retry_confirm</abbr></a></td><td class="text-right">992</td></tr>
+       <tr><td><a href="PaymentController.php.html#7226"><abbr title="PaymentController::_error_log_set">_error_log_set</abbr></a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="PaymentController.php.html#12003"><abbr title="PaymentController::checkUser">checkUser</abbr></a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="PaymentController.php.html#32585"><abbr title="PaymentController::createCorporateIndividualPayment">createCorporateIndividualPayment</abbr></a></td><td class="text-right">812</td></tr>
+       <tr><td><a href="PaymentController.php.html#7726"><abbr title="PaymentController::zeus_credit_register">zeus_credit_register</abbr></a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="PaymentController.php.html#21920"><abbr title="PaymentController::getRetryPaymentData">getRetryPaymentData</abbr></a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="PaymentController.php.html#32969"><abbr title="PaymentController::applyCouponPayment">applyCouponPayment</abbr></a></td><td class="text-right">756</td></tr>
+       <tr><td><a href="PaymentController.php.html#21785"><abbr title="PaymentController::mobappGetUserData">mobappGetUserData</abbr></a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="PaymentController.php.html#28241"><abbr title="PaymentController::corpIndividualData">corpIndividualData</abbr></a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="PaymentController.php.html#12119"><abbr title="PaymentController::formDataValidation">formDataValidation</abbr></a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="PaymentController.php.html#36289"><abbr title="PaymentController::stripe_error_log_set">stripe_error_log_set</abbr></a></td><td class="text-right">650</td></tr>
+       <tr><td><a href="PaymentController.php.html#12820"><abbr title="PaymentController::mobapp_credit_change">mobapp_credit_change</abbr></a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="PaymentController.php.html#30518"><abbr title="PaymentController::processChildAfteePayment">processChildAfteePayment</abbr></a></td><td class="text-right">600</td></tr>
+       <tr><td><a href="PaymentController.php.html#18328"><abbr title="PaymentController::mobapp_credit_charge_confirm">mobapp_credit_charge_confirm</abbr></a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="PaymentController.php.html#8723"><abbr title="PaymentController::paypal_payment_credit_register_process">paypal_payment_credit_register_process</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="PaymentController.php.html#14873"><abbr title="PaymentController::mobapp_credit_register_form">mobapp_credit_register_form</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="PaymentController.php.html#10279"><abbr title="PaymentController::zeus_credit_charge_confirm">zeus_credit_charge_confirm</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="PaymentController.php.html#15823"><abbr title="PaymentController::mobapp_credit_register_native_plan">mobapp_credit_register_native_plan</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="PaymentController.php.html#30216"><abbr title="PaymentController::processChildPaypalPayment">processChildPaypalPayment</abbr></a></td><td class="text-right">420</td></tr>
+       <tr><td><a href="PaymentController.php.html#75"><abbr title="PaymentController::beforeFilter">beforeFilter</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="PaymentController.php.html#10044"><abbr title="PaymentController::wp_credit_charge">wp_credit_charge</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="PaymentController.php.html#13106"><abbr title="PaymentController::mobapp_credit_change_form">mobapp_credit_change_form</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="PaymentController.php.html#27996"><abbr title="PaymentController::sendEbookPurchaseEmailSlack">sendEbookPurchaseEmailSlack</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="PaymentController.php.html#7595"><abbr title="PaymentController::payment_credit_register">payment_credit_register</abbr></a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="PaymentController.php.html#17734"><abbr title="PaymentController::mobapp_wp_credit_charge">mobapp_wp_credit_charge</abbr></a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="PaymentController.php.html#19075"><abbr title="PaymentController::handleCreditResponseErrorMobapp">handleCreditResponseErrorMobapp</abbr></a></td><td class="text-right">342</td></tr>
+       <tr><td><a href="PaymentController.php.html#10868"><abbr title="PaymentController::paypal_payment_credit_charge_process">paypal_payment_credit_charge_process</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="PaymentController.php.html#13718"><abbr title="PaymentController::mobapp_credit_retry_form">mobapp_credit_retry_form</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="PaymentController.php.html#33238"><abbr title="PaymentController::paypalWebhook">paypalWebhook</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="PaymentController.php.html#2047"><abbr title="PaymentController::handleCreditResponseError">handleCreditResponseError</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="PaymentController.php.html#15371"><abbr title="PaymentController::mobapp_paypal_credit_register_process">mobapp_paypal_credit_register_process</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="PaymentController.php.html#16145"><abbr title="PaymentController::mobapp_wp_credit_register">mobapp_wp_credit_register</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="PaymentController.php.html#22381"><abbr title="PaymentController::mobapp_corporate_register_card">mobapp_corporate_register_card</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="PaymentController.php.html#23935"><abbr title="PaymentController::setSupportPayPal">setSupportPayPal</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="PaymentController.php.html#30057"><abbr title="PaymentController::processChildReceivablePayment">processChildReceivablePayment</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="PaymentController.php.html#7453"><abbr title="PaymentController::coupon_form">coupon_form</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="PaymentController.php.html#8125"><abbr title="PaymentController::wp_credit_register">wp_credit_register</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="PaymentController.php.html#31363"><abbr title="PaymentController::processChildWithdrawal">processChildWithdrawal</abbr></a></td><td class="text-right">240</td></tr>
+       <tr><td><a href="PaymentController.php.html#10214"><abbr title="PaymentController::retrial_confiscate_coins">retrial_confiscate_coins</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="PaymentController.php.html#16002"><abbr title="PaymentController::mobapp_wp_credit">mobapp_wp_credit</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="PaymentController.php.html#17869"><abbr title="PaymentController::mobapp_wp_credit_charge_form">mobapp_wp_credit_charge_form</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="PaymentController.php.html#18540"><abbr title="PaymentController::mobapp_paypal_credit_charge_process">mobapp_paypal_credit_charge_process</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="PaymentController.php.html#18675"><abbr title="PaymentController::mobappSetUpTransaction">mobappSetUpTransaction</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="PaymentController.php.html#32321"><abbr title="PaymentController::zeus_payment_change_plan">zeus_payment_change_plan</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="PaymentController.php.html#32840"><abbr title="PaymentController::createLitePlanTransaction">createLitePlanTransaction</abbr></a></td><td class="text-right">210</td></tr>
+       <tr><td><a href="PaymentController.php.html#12179"><abbr title="PaymentController::withdraw">withdraw</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="PaymentController.php.html#14624"><abbr title="PaymentController::mobapp_credit_register">mobapp_credit_register</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="PaymentController.php.html#23400"><abbr title="PaymentController::addCoinRewardForReenroll">addCoinRewardForReenroll</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="PaymentController.php.html#28142"><abbr title="PaymentController::setPaymentPlanDetails">setPaymentPlanDetails</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="PaymentController.php.html#10734"><abbr title="PaymentController::wp_credit_charge_form">wp_credit_charge_form</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PaymentController.php.html#11378"><abbr title="PaymentController::wp_credit_retry">wp_credit_retry</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PaymentController.php.html#14504"><abbr title="PaymentController::mobapp_paypal_credit_retry_process">mobapp_paypal_credit_retry_process</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PaymentController.php.html#19259"><abbr title="PaymentController::getAndSetCardInfo">getAndSetCardInfo</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PaymentController.php.html#32480"><abbr title="PaymentController::payment_credit_register_receivable">payment_credit_register_receivable</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="PaymentController.php.html#33379"><abbr title="PaymentController::createChocottoPlanTransaction">createChocottoPlanTransaction</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="PaymentController.php.html#11497"><abbr title="PaymentController::zeus_credit_retry_confirm">zeus_credit_retry_confirm</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PaymentController.php.html#14363"><abbr title="PaymentController::mobapp_credit_retry_confirm">mobapp_credit_retry_confirm</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PaymentController.php.html#19155"><abbr title="PaymentController::getUserId">getUserId</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PaymentController.php.html#22292"><abbr title="PaymentController::getCorporatePaymentPlan">getCorporatePaymentPlan</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="PaymentController.php.html#8930"><abbr title="PaymentController::sp_paypal_payment_credit_register_process">sp_paypal_payment_credit_register_process</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="PaymentController.php.html#12720"><abbr title="PaymentController::mobapp_payment_credit_register_receivable">mobapp_payment_credit_register_receivable</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="PaymentController.php.html#19961"><abbr title="PaymentController::memcacheWPPayment">memcacheWPPayment</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="PaymentController.php.html#7197"><abbr title="PaymentController::update_card_fail_flg">update_card_fail_flg</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PaymentController.php.html#8324"><abbr title="PaymentController::zeus_credit_register_confirm">zeus_credit_register_confirm</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PaymentController.php.html#13982"><abbr title="PaymentController::mobapp_wp_credit_retry_form">mobapp_wp_credit_retry_form</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PaymentController.php.html#33463"><abbr title="PaymentController::stripepay">stripepay</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="PaymentController.php.html#1807"><abbr title="PaymentController::payment_credit_charge_complete">payment_credit_charge_complete</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PaymentController.php.html#11925"><abbr title="PaymentController::paypal_payment_credit_retry_process">paypal_payment_credit_retry_process</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PaymentController.php.html#15247"><abbr title="PaymentController::mobapp_credit_register_confirm">mobapp_credit_register_confirm</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PaymentController.php.html#22275"><abbr title="PaymentController::ifComPlanUser">ifComPlanUser</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PaymentController.php.html#30940"><abbr title="PaymentController::liteUserAddCoinRewardForReenroll">liteUserAddCoinRewardForReenroll</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PaymentController.php.html#32769"><abbr title="PaymentController::getDefaultPlanId">getDefaultPlanId</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="PaymentController.php.html#1272"><abbr title="PaymentController::checkCallBack">checkCallBack</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PaymentController.php.html#9290"><abbr title="PaymentController::paypal_payment_credit_change_process">paypal_payment_credit_change_process</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PaymentController.php.html#9340"><abbr title="PaymentController::wp_credit_change">wp_credit_change</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PaymentController.php.html#9456"><abbr title="PaymentController::payment_credit_charge">payment_credit_charge</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PaymentController.php.html#11875"><abbr title="PaymentController::wp_credit_retry_form">wp_credit_retry_form</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PaymentController.php.html#15145"><abbr title="PaymentController::sp_credit_register_form">sp_credit_register_form</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PaymentController.php.html#19353"><abbr title="PaymentController::mobapp_failure_settlement">mobapp_failure_settlement</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PaymentController.php.html#19413"><abbr title="PaymentController::updatePaymentTransaction">updatePaymentTransaction</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PaymentController.php.html#30855"><abbr title="PaymentController::mobapp_credit_retry_complete">mobapp_credit_retry_complete</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PaymentController.php.html#30884"><abbr title="PaymentController::setLitePaymentInfoView">setLitePaymentInfoView</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="PaymentController.php.html#1314"><abbr title="PaymentController::t_start">t_start</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PaymentController.php.html#1973"><abbr title="PaymentController::payment_credit_change_complete">payment_credit_change_complete</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PaymentController.php.html#9078"><abbr title="PaymentController::payment_credit_change">payment_credit_change</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PaymentController.php.html#13010"><abbr title="PaymentController::mobapp_wp_credit_change_form">mobapp_wp_credit_change_form</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PaymentController.php.html#13911"><abbr title="PaymentController::mobapp_wp_credit_retry">mobapp_wp_credit_retry</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PaymentController.php.html#19186"><abbr title="PaymentController::decodeSendPointData">decodeSendPointData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PaymentController.php.html#22205"><abbr title="PaymentController::complimentaryPlanValidation">complimentaryPlanValidation</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PaymentController.php.html#25591"><abbr title="PaymentController::getAfteePaymentResult">getAfteePaymentResult</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PaymentController.php.html#33096"><abbr title="PaymentController::setCouponUseData">setCouponUseData</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PaymentController.php.html#36889"><abbr title="PaymentController::sendStripeResponseSlackMessage">sendStripeResponseSlackMessage</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="PaymentController.php.html#1727"><abbr title="PaymentController::payment_credit_register_complete">payment_credit_register_complete</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PaymentController.php.html#1915"><abbr title="PaymentController::payment_credit_retry_complete">payment_credit_retry_complete</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PaymentController.php.html#9397"><abbr title="PaymentController::wp_credit_change_form">wp_credit_change_form</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PaymentController.php.html#19369"><abbr title="PaymentController::sp_failure_settlement">sp_failure_settlement</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PaymentController.php.html#22122"><abbr title="PaymentController::changePaymentPlanIfTelecomUser">changePaymentPlanIfTelecomUser</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PaymentController.php.html#24010"><abbr title="PaymentController::restrictForTrialNotConducted">restrictForTrialNotConducted</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PaymentController.php.html#28415"><abbr title="PaymentController::corporate_change_individual_card_payment">corporate_change_individual_card_payment</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PaymentController.php.html#32800"><abbr title="PaymentController::selectCorpType">selectCorpType</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="PaymentController.php.html#7416"><abbr title="PaymentController::free_digest_member_t_start">free_digest_member_t_start</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentController.php.html#10679"><abbr title="PaymentController::paypal_payment_credit_charge_confirm">paypal_payment_credit_charge_confirm</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentController.php.html#12311"><abbr title="PaymentController::checkToken">checkToken</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentController.php.html#12681"><abbr title="PaymentController::getPaymentTransaction">getPaymentTransaction</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentController.php.html#13251"><abbr title="PaymentController::mobapp_paypal_credit_change_process">mobapp_paypal_credit_change_process</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentController.php.html#16279"><abbr title="PaymentController::mobapp_wp_credit_register_form">mobapp_wp_credit_register_form</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentController.php.html#19233"><abbr title="PaymentController::failureFamily">failureFamily</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentController.php.html#19945"><abbr title="PaymentController::deleteUserToken">deleteUserToken</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentController.php.html#25177"><abbr title="PaymentController::sendZeusResponseSlackMessage">sendZeusResponseSlackMessage</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentController.php.html#25219"><abbr title="PaymentController::processRedirection">processRedirection</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentController.php.html#28110"><abbr title="PaymentController::isForTrialReenrollment">isForTrialReenrollment</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentController.php.html#36917"><abbr title="PaymentController::updateUserToken">updateUserToken</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="PaymentController.php.html#1299"><abbr title="PaymentController::savePdataLog">savePdataLog</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#5319"><abbr title="PaymentController::saveStep">saveStep</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#8312"><abbr title="PaymentController::payment_credit_register_confirm">payment_credit_register_confirm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#8661"><abbr title="PaymentController::paypal_payment_credit_register_confirm">paypal_payment_credit_register_confirm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#9004"><abbr title="PaymentController::wp_credit_register_form">wp_credit_register_form</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#10181"><abbr title="PaymentController::payment_credit_charge_confirm">payment_credit_charge_confirm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#11030"><abbr title="PaymentController::payment_credit_retry">payment_credit_retry</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#11486"><abbr title="PaymentController::payment_credit_retry_confirm">payment_credit_retry_confirm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#11832"><abbr title="PaymentController::paypal_payment_credit_retry_confirm">paypal_payment_credit_retry_confirm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#12277"><abbr title="PaymentController::withdraw_confirm">withdraw_confirm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#12335"><abbr title="PaymentController::unsetToken">unsetToken</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#12961"><abbr title="PaymentController::mobapp_wp_credit_change">mobapp_wp_credit_change</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#14449"><abbr title="PaymentController::mobapp_paypal_credit_retry_confirm">mobapp_paypal_credit_retry_confirm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#15308"><abbr title="PaymentController::mobapp_paypal_credit_register_confirm">mobapp_paypal_credit_register_confirm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#18471"><abbr title="PaymentController::mobapp_paypal_credit_charge_confirm">mobapp_paypal_credit_charge_confirm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#18743"><abbr title="PaymentController::unsetTokenMobapp">unsetTokenMobapp</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#18756"><abbr title="PaymentController::getUserData">getUserData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#19139"><abbr title="PaymentController::failure_family">failure_family</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#19306"><abbr title="PaymentController::setPaymentViewVars">setPaymentViewVars</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#19332"><abbr title="PaymentController::failure_settlement">failure_settlement</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#19386"><abbr title="PaymentController::getWPUserData">getWPUserData</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#22187"><abbr title="PaymentController::notice_coupon_code_plan_change">notice_coupon_code_plan_change</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#22503"><abbr title="PaymentController::slackZeusErrorPostMsg">slackZeusErrorPostMsg</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="PaymentController.php.html#36446"><abbr title="PaymentController::slackStripeErrorPostMsg">slackStripeErrorPostMsg</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 11.0.9</a> using <a href="https://www.php.net/" target="_top">PHP 8.2.24</a>, <a href="https://codeception.com">Codeception</a> and <a href="https://phpunit.de/">PHPUnit {PHPUnitVersion::id()}</a> at Wed Jun 4 12:27:30 JST 2025.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="_js/jquery.min.js?v=11.0.9" type="text/javascript"></script>
+  <script src="_js/d3.min.js?v=11.0.9" type="text/javascript"></script>
+  <script src="_js/nv.d3.min.js?v=11.0.9" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,1,0,0,0,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([188,0,0,0,0,0,0,0,0,1,1,4], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[3.0208428978055273,5305,"<a href=\"PaymentController.php.html#6\">PaymentController<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,19,"<a href=\"PaymentController.php.html#75\">PaymentController::beforeFilter<\/a>"],[100,2,"<a href=\"PaymentController.php.html#215\">PaymentController::index<\/a>"],[89.43248532289628,134,"<a href=\"PaymentController.php.html#254\">PaymentController::getWPPaymentResult<\/a>"],[95.71428571428572,28,"<a href=\"PaymentController.php.html#1034\">PaymentController::worldpay_error_log_set<\/a>"],[100,4,"<a href=\"PaymentController.php.html#1210\">PaymentController::complete<\/a>"],[100,2,"<a href=\"PaymentController.php.html#1243\">PaymentController::pointsComplete<\/a>"],[0,1,"<a href=\"PaymentController.php.html#1267\">PaymentController::callback<\/a>"],[0,6,"<a href=\"PaymentController.php.html#1272\">PaymentController::checkCallBack<\/a>"],[0,2,"<a href=\"PaymentController.php.html#1299\">PaymentController::savePdataLog<\/a>"],[0,5,"<a href=\"PaymentController.php.html#1314\">PaymentController::t_start<\/a>"],[0,1,"<a href=\"PaymentController.php.html#1390\">PaymentController::charge_company_select<\/a>"],[0,64,"<a href=\"PaymentController.php.html#1451\">PaymentController::z_start<\/a>"],[0,4,"<a href=\"PaymentController.php.html#1727\">PaymentController::payment_credit_register_complete<\/a>"],[0,1,"<a href=\"PaymentController.php.html#1774\">PaymentController::coupon_payment_credit_charge_complete<\/a>"],[0,7,"<a href=\"PaymentController.php.html#1807\">PaymentController::payment_credit_charge_complete<\/a>"],[0,4,"<a href=\"PaymentController.php.html#1915\">PaymentController::payment_credit_retry_complete<\/a>"],[0,5,"<a href=\"PaymentController.php.html#1973\">PaymentController::payment_credit_change_complete<\/a>"],[0,16,"<a href=\"PaymentController.php.html#2047\">PaymentController::handleCreditResponseError<\/a>"],[0,546,"<a href=\"PaymentController.php.html#2136\">PaymentController::zeuspay<\/a>"],[0,2,"<a href=\"PaymentController.php.html#5319\">PaymentController::saveStep<\/a>"],[0,298,"<a href=\"PaymentController.php.html#5367\">PaymentController::corporateZeuspay<\/a>"],[0,8,"<a href=\"PaymentController.php.html#7197\">PaymentController::update_card_fail_flg<\/a>"],[0,28,"<a href=\"PaymentController.php.html#7226\">PaymentController::_error_log_set<\/a>"],[0,3,"<a href=\"PaymentController.php.html#7416\">PaymentController::free_digest_member_t_start<\/a>"],[0,15,"<a href=\"PaymentController.php.html#7453\">PaymentController::coupon_form<\/a>"],[0,18,"<a href=\"PaymentController.php.html#7595\">PaymentController::payment_credit_register<\/a>"],[0,27,"<a href=\"PaymentController.php.html#7726\">PaymentController::zeus_credit_register<\/a>"],[0,37,"<a href=\"PaymentController.php.html#8007\">PaymentController::checkIfChargedAfterChallenge<\/a>"],[0,15,"<a href=\"PaymentController.php.html#8125\">PaymentController::wp_credit_register<\/a>"],[0,2,"<a href=\"PaymentController.php.html#8312\">PaymentController::payment_credit_register_confirm<\/a>"],[0,8,"<a href=\"PaymentController.php.html#8324\">PaymentController::zeus_credit_register_confirm<\/a>"],[0,34,"<a href=\"PaymentController.php.html#8368\">PaymentController::wp_credit_register_confirm<\/a>"],[0,2,"<a href=\"PaymentController.php.html#8661\">PaymentController::paypal_payment_credit_register_confirm<\/a>"],[0,21,"<a href=\"PaymentController.php.html#8723\">PaymentController::paypal_payment_credit_register_process<\/a>"],[0,9,"<a href=\"PaymentController.php.html#8930\">PaymentController::sp_paypal_payment_credit_register_process<\/a>"],[0,2,"<a href=\"PaymentController.php.html#9004\">PaymentController::wp_credit_register_form<\/a>"],[0,5,"<a href=\"PaymentController.php.html#9078\">PaymentController::payment_credit_change<\/a>"],[0,35,"<a href=\"PaymentController.php.html#9109\">PaymentController::zeus_credit_change<\/a>"],[0,6,"<a href=\"PaymentController.php.html#9290\">PaymentController::paypal_payment_credit_change_process<\/a>"],[0,6,"<a href=\"PaymentController.php.html#9340\">PaymentController::wp_credit_change<\/a>"],[0,4,"<a href=\"PaymentController.php.html#9397\">PaymentController::wp_credit_change_form<\/a>"],[0,6,"<a href=\"PaymentController.php.html#9456\">PaymentController::payment_credit_charge<\/a>"],[0,77,"<a href=\"PaymentController.php.html#9508\">PaymentController::zeus_credit_charge<\/a>"],[0,19,"<a href=\"PaymentController.php.html#10044\">PaymentController::wp_credit_charge<\/a>"],[0,2,"<a href=\"PaymentController.php.html#10181\">PaymentController::payment_credit_charge_confirm<\/a>"],[0,14,"<a href=\"PaymentController.php.html#10214\">PaymentController::retrial_confiscate_coins<\/a>"],[0,20,"<a href=\"PaymentController.php.html#10279\">PaymentController::zeus_credit_charge_confirm<\/a>"],[0,35,"<a href=\"PaymentController.php.html#10371\">PaymentController::wp_credit_charge_confirm<\/a>"],[0,3,"<a href=\"PaymentController.php.html#10679\">PaymentController::paypal_payment_credit_charge_confirm<\/a>"],[0,12,"<a href=\"PaymentController.php.html#10734\">PaymentController::wp_credit_charge_form<\/a>"],[0,17,"<a href=\"PaymentController.php.html#10868\">PaymentController::paypal_payment_credit_charge_process<\/a>"],[0,2,"<a href=\"PaymentController.php.html#11030\">PaymentController::payment_credit_retry<\/a>"],[0,46,"<a href=\"PaymentController.php.html#11052\">PaymentController::zeus_credit_retry<\/a>"],[0,12,"<a href=\"PaymentController.php.html#11378\">PaymentController::wp_credit_retry<\/a>"],[0,2,"<a href=\"PaymentController.php.html#11486\">PaymentController::payment_credit_retry_confirm<\/a>"],[0,10,"<a href=\"PaymentController.php.html#11497\">PaymentController::zeus_credit_retry_confirm<\/a>"],[0,33,"<a href=\"PaymentController.php.html#11540\">PaymentController::wp_credit_retry_confirm<\/a>"],[0,2,"<a href=\"PaymentController.php.html#11832\">PaymentController::paypal_payment_credit_retry_confirm<\/a>"],[0,6,"<a href=\"PaymentController.php.html#11875\">PaymentController::wp_credit_retry_form<\/a>"],[0,7,"<a href=\"PaymentController.php.html#11925\">PaymentController::paypal_payment_credit_retry_process<\/a>"],[0,28,"<a href=\"PaymentController.php.html#12003\">PaymentController::checkUser<\/a>"],[0,25,"<a href=\"PaymentController.php.html#12119\">PaymentController::formDataValidation<\/a>"],[0,13,"<a href=\"PaymentController.php.html#12179\">PaymentController::withdraw<\/a>"],[0,2,"<a href=\"PaymentController.php.html#12277\">PaymentController::withdraw_confirm<\/a>"],[0,3,"<a href=\"PaymentController.php.html#12311\">PaymentController::checkToken<\/a>"],[0,2,"<a href=\"PaymentController.php.html#12335\">PaymentController::unsetToken<\/a>"],[0,85,"<a href=\"PaymentController.php.html#12345\">PaymentController::createPaymentTransaction<\/a>"],[0,3,"<a href=\"PaymentController.php.html#12681\">PaymentController::getPaymentTransaction<\/a>"],[0,9,"<a href=\"PaymentController.php.html#12720\">PaymentController::mobapp_payment_credit_register_receivable<\/a>"],[0,24,"<a href=\"PaymentController.php.html#12820\">PaymentController::mobapp_credit_change<\/a>"],[0,2,"<a href=\"PaymentController.php.html#12961\">PaymentController::mobapp_wp_credit_change<\/a>"],[0,5,"<a href=\"PaymentController.php.html#13010\">PaymentController::mobapp_wp_credit_change_form<\/a>"],[0,19,"<a href=\"PaymentController.php.html#13106\">PaymentController::mobapp_credit_change_form<\/a>"],[0,3,"<a href=\"PaymentController.php.html#13251\">PaymentController::mobapp_paypal_credit_change_process<\/a>"],[0,43,"<a href=\"PaymentController.php.html#13329\">PaymentController::mobapp_credit_retry<\/a>"],[0,17,"<a href=\"PaymentController.php.html#13718\">PaymentController::mobapp_credit_retry_form<\/a>"],[0,5,"<a href=\"PaymentController.php.html#13911\">PaymentController::mobapp_wp_credit_retry<\/a>"],[0,8,"<a href=\"PaymentController.php.html#13982\">PaymentController::mobapp_wp_credit_retry_form<\/a>"],[0,31,"<a href=\"PaymentController.php.html#14068\">PaymentController::mobapp_wp_credit_retry_confirm<\/a>"],[0,10,"<a href=\"PaymentController.php.html#14363\">PaymentController::mobapp_credit_retry_confirm<\/a>"],[0,2,"<a href=\"PaymentController.php.html#14449\">PaymentController::mobapp_paypal_credit_retry_confirm<\/a>"],[0,12,"<a href=\"PaymentController.php.html#14504\">PaymentController::mobapp_paypal_credit_retry_process<\/a>"],[0,1,"<a href=\"PaymentController.php.html#14576\">PaymentController::mobapp_credit_register_trial_notice<\/a>"],[0,13,"<a href=\"PaymentController.php.html#14624\">PaymentController::mobapp_credit_register<\/a>"],[0,21,"<a href=\"PaymentController.php.html#14873\">PaymentController::mobapp_credit_register_form<\/a>"],[0,6,"<a href=\"PaymentController.php.html#15145\">PaymentController::sp_credit_register_form<\/a>"],[0,7,"<a href=\"PaymentController.php.html#15247\">PaymentController::mobapp_credit_register_confirm<\/a>"],[0,2,"<a href=\"PaymentController.php.html#15308\">PaymentController::mobapp_paypal_credit_register_confirm<\/a>"],[0,16,"<a href=\"PaymentController.php.html#15371\">PaymentController::mobapp_paypal_credit_register_process<\/a>"],[0,38,"<a href=\"PaymentController.php.html#15578\">PaymentController::mobapp_credit_register_notice_to_user<\/a>"],[0,20,"<a href=\"PaymentController.php.html#15823\">PaymentController::mobapp_credit_register_native_plan<\/a>"],[0,1,"<a href=\"PaymentController.php.html#15978\">PaymentController::mobapp_credit_register_questionnaire<\/a>"],[0,14,"<a href=\"PaymentController.php.html#16002\">PaymentController::mobapp_wp_credit<\/a>"],[0,16,"<a href=\"PaymentController.php.html#16145\">PaymentController::mobapp_wp_credit_register<\/a>"],[0,3,"<a href=\"PaymentController.php.html#16279\">PaymentController::mobapp_wp_credit_register_form<\/a>"],[0,32,"<a href=\"PaymentController.php.html#16342\">PaymentController::mobapp_wp_credit_register_confirm<\/a>"],[0,67,"<a href=\"PaymentController.php.html#16647\">PaymentController::mobapp_credit_charge<\/a>"],[0,71,"<a href=\"PaymentController.php.html#17205\">PaymentController::mobapp_credit_charge_form<\/a>"],[0,18,"<a href=\"PaymentController.php.html#17734\">PaymentController::mobapp_wp_credit_charge<\/a>"],[0,14,"<a href=\"PaymentController.php.html#17869\">PaymentController::mobapp_wp_credit_charge_form<\/a>"],[0,34,"<a href=\"PaymentController.php.html#17996\">PaymentController::mobapp_wp_credit_charge_confirm<\/a>"],[0,23,"<a href=\"PaymentController.php.html#18328\">PaymentController::mobapp_credit_charge_confirm<\/a>"],[0,2,"<a href=\"PaymentController.php.html#18471\">PaymentController::mobapp_paypal_credit_charge_confirm<\/a>"],[0,14,"<a href=\"PaymentController.php.html#18540\">PaymentController::mobapp_paypal_credit_charge_process<\/a>"],[0,14,"<a href=\"PaymentController.php.html#18675\">PaymentController::mobappSetUpTransaction<\/a>"],[0,1,"<a href=\"PaymentController.php.html#18735\">PaymentController::checkTokenMobapp<\/a>"],[0,2,"<a href=\"PaymentController.php.html#18743\">PaymentController::unsetTokenMobapp<\/a>"],[0,2,"<a href=\"PaymentController.php.html#18756\">PaymentController::getUserData<\/a>"],[0,73,"<a href=\"PaymentController.php.html#18773\">PaymentController::zeus_card_process_mobapp<\/a>"],[0,18,"<a href=\"PaymentController.php.html#19075\">PaymentController::handleCreditResponseErrorMobapp<\/a>"],[0,2,"<a href=\"PaymentController.php.html#19139\">PaymentController::failure_family<\/a>"],[0,1,"<a href=\"PaymentController.php.html#19145\">PaymentController::sp_failure_family<\/a>"],[0,10,"<a href=\"PaymentController.php.html#19155\">PaymentController::getUserId<\/a>"],[0,5,"<a href=\"PaymentController.php.html#19186\">PaymentController::decodeSendPointData<\/a>"],[0,3,"<a href=\"PaymentController.php.html#19233\">PaymentController::failureFamily<\/a>"],[0,12,"<a href=\"PaymentController.php.html#19259\">PaymentController::getAndSetCardInfo<\/a>"],[0,2,"<a href=\"PaymentController.php.html#19306\">PaymentController::setPaymentViewVars<\/a>"],[0,2,"<a href=\"PaymentController.php.html#19332\">PaymentController::failure_settlement<\/a>"],[0,6,"<a href=\"PaymentController.php.html#19353\">PaymentController::mobapp_failure_settlement<\/a>"],[0,4,"<a href=\"PaymentController.php.html#19369\">PaymentController::sp_failure_settlement<\/a>"],[0,2,"<a href=\"PaymentController.php.html#19386\">PaymentController::getWPUserData<\/a>"],[0,6,"<a href=\"PaymentController.php.html#19413\">PaymentController::updatePaymentTransaction<\/a>"],[0,92,"<a href=\"PaymentController.php.html#19434\">PaymentController::getHostedPage<\/a>"],[0,3,"<a href=\"PaymentController.php.html#19945\">PaymentController::deleteUserToken<\/a>"],[0,9,"<a href=\"PaymentController.php.html#19961\">PaymentController::memcacheWPPayment<\/a>"],[0,1,"<a href=\"PaymentController.php.html#19976\">PaymentController::memcacheCardType<\/a>"],[0,324,"<a href=\"PaymentController.php.html#19990\">PaymentController::processWPPayment<\/a>"],[0,26,"<a href=\"PaymentController.php.html#21785\">PaymentController::mobappGetUserData<\/a>"],[0,27,"<a href=\"PaymentController.php.html#21920\">PaymentController::getRetryPaymentData<\/a>"],[0,4,"<a href=\"PaymentController.php.html#22122\">PaymentController::changePaymentPlanIfTelecomUser<\/a>"],[0,1,"<a href=\"PaymentController.php.html#22161\">PaymentController::notice_coupon_code_plan<\/a>"],[0,2,"<a href=\"PaymentController.php.html#22187\">PaymentController::notice_coupon_code_plan_change<\/a>"],[0,5,"<a href=\"PaymentController.php.html#22205\">PaymentController::complimentaryPlanValidation<\/a>"],[0,1,"<a href=\"PaymentController.php.html#22245\">PaymentController::updateUserCardCompanyToZeus<\/a>"],[100,1,"<a href=\"PaymentController.php.html#22256\">PaymentController::slackWPErrorPostMsg<\/a>"],[0,7,"<a href=\"PaymentController.php.html#22275\">PaymentController::ifComPlanUser<\/a>"],[0,10,"<a href=\"PaymentController.php.html#22292\">PaymentController::getCorporatePaymentPlan<\/a>"],[0,16,"<a href=\"PaymentController.php.html#22381\">PaymentController::mobapp_corporate_register_card<\/a>"],[0,2,"<a href=\"PaymentController.php.html#22503\">PaymentController::slackZeusErrorPostMsg<\/a>"],[0,108,"<a href=\"PaymentController.php.html#22530\">PaymentController::processPayPalPayment<\/a>"],[0,13,"<a href=\"PaymentController.php.html#23400\">PaymentController::addCoinRewardForReenroll<\/a>"],[0,63,"<a href=\"PaymentController.php.html#23482\">PaymentController::paypalSaveBillingAgreement<\/a>"],[0,16,"<a href=\"PaymentController.php.html#23935\">PaymentController::setSupportPayPal<\/a>"],[0,1,"<a href=\"PaymentController.php.html#24001\">PaymentController::sms_questionnaire<\/a>"],[0,4,"<a href=\"PaymentController.php.html#24010\">PaymentController::restrictForTrialNotConducted<\/a>"],[0,151,"<a href=\"PaymentController.php.html#24019\">PaymentController::zeuspayGetChallenge<\/a>"],[0,76,"<a href=\"PaymentController.php.html#24821\">PaymentController::reportZeusChallengeResponse<\/a>"],[0,3,"<a href=\"PaymentController.php.html#25177\">PaymentController::sendZeusResponseSlackMessage<\/a>"],[0,3,"<a href=\"PaymentController.php.html#25219\">PaymentController::processRedirection<\/a>"],[0,62,"<a href=\"PaymentController.php.html#25236\">PaymentController::getAfteeHostedPage<\/a>"],[0,5,"<a href=\"PaymentController.php.html#25591\">PaymentController::getAfteePaymentResult<\/a>"],[0,1,"<a href=\"PaymentController.php.html#25627\">PaymentController::afteeAuthentication<\/a>"],[0,183,"<a href=\"PaymentController.php.html#25638\">PaymentController::processAfteePayment<\/a>"],[0,1,"<a href=\"PaymentController.php.html#26722\">PaymentController::slackAfteePErrorPostMsg<\/a>"],[0,104,"<a href=\"PaymentController.php.html#26741\">PaymentController::handleAfteeAuthenticationSuccess<\/a>"],[0,90,"<a href=\"PaymentController.php.html#27290\">PaymentController::handleAfteeDirectPaymentSuccess<\/a>"],[0,1,"<a href=\"PaymentController.php.html#27973\">PaymentController::sendNatGeoEbookPurchaseEmailSlack<\/a>"],[0,19,"<a href=\"PaymentController.php.html#27996\">PaymentController::sendEbookPurchaseEmailSlack<\/a>"],[0,3,"<a href=\"PaymentController.php.html#28110\">PaymentController::isForTrialReenrollment<\/a>"],[0,1,"<a href=\"PaymentController.php.html#28133\">PaymentController::checkZeusChallengeResponse<\/a>"],[0,13,"<a href=\"PaymentController.php.html#28142\">PaymentController::setPaymentPlanDetails<\/a>"],[0,26,"<a href=\"PaymentController.php.html#28241\">PaymentController::corpIndividualData<\/a>"],[0,4,"<a href=\"PaymentController.php.html#28415\">PaymentController::corporate_change_individual_card_payment<\/a>"],[0,45,"<a href=\"PaymentController.php.html#28442\">PaymentController::corp_user_change_personal_card<\/a>"],[0,50,"<a href=\"PaymentController.php.html#28745\">PaymentController::paypal_student_discount_user_change_card<\/a>"],[0,47,"<a href=\"PaymentController.php.html#29249\">PaymentController::student_discount_user_change_card<\/a>"],[0,57,"<a href=\"PaymentController.php.html#29578\">PaymentController::mobapp_corporate_change_individual_card_payment<\/a>"],[0,16,"<a href=\"PaymentController.php.html#30057\">PaymentController::processChildReceivablePayment<\/a>"],[0,20,"<a href=\"PaymentController.php.html#30216\">PaymentController::processChildPaypalPayment<\/a>"],[0,24,"<a href=\"PaymentController.php.html#30518\">PaymentController::processChildAfteePayment<\/a>"],[0,6,"<a href=\"PaymentController.php.html#30855\">PaymentController::mobapp_credit_retry_complete<\/a>"],[0,6,"<a href=\"PaymentController.php.html#30884\">PaymentController::setLitePaymentInfoView<\/a>"],[0,7,"<a href=\"PaymentController.php.html#30940\">PaymentController::liteUserAddCoinRewardForReenroll<\/a>"],[0,46,"<a href=\"PaymentController.php.html#31018\">PaymentController::processChangePlan<\/a>"],[0,15,"<a href=\"PaymentController.php.html#31363\">PaymentController::processChildWithdrawal<\/a>"],[0,69,"<a href=\"PaymentController.php.html#31500\">PaymentController::paypal_payment_change_plan_process<\/a>"],[0,14,"<a href=\"PaymentController.php.html#32321\">PaymentController::zeus_payment_change_plan<\/a>"],[0,12,"<a href=\"PaymentController.php.html#32480\">PaymentController::payment_credit_register_receivable<\/a>"],[0,28,"<a href=\"PaymentController.php.html#32585\">PaymentController::createCorporateIndividualPayment<\/a>"],[0,7,"<a href=\"PaymentController.php.html#32769\">PaymentController::getDefaultPlanId<\/a>"],[0,4,"<a href=\"PaymentController.php.html#32800\">PaymentController::selectCorpType<\/a>"],[0,14,"<a href=\"PaymentController.php.html#32840\">PaymentController::createLitePlanTransaction<\/a>"],[0,27,"<a href=\"PaymentController.php.html#32969\">PaymentController::applyCouponPayment<\/a>"],[0,5,"<a href=\"PaymentController.php.html#33096\">PaymentController::setCouponUseData<\/a>"],[0,17,"<a href=\"PaymentController.php.html#33238\">PaymentController::paypalWebhook<\/a>"],[0,11,"<a href=\"PaymentController.php.html#33379\">PaymentController::createChocottoPlanTransaction<\/a>"],[0,8,"<a href=\"PaymentController.php.html#33463\">PaymentController::stripepay<\/a>"],[0,1,"<a href=\"PaymentController.php.html#33518\">PaymentController::stripepay_manual<\/a>"],[0,449,"<a href=\"PaymentController.php.html#33529\">PaymentController::handleStripePaymentResult<\/a>"],[0,25,"<a href=\"PaymentController.php.html#36289\">PaymentController::stripe_error_log_set<\/a>"],[0,2,"<a href=\"PaymentController.php.html#36446\">PaymentController::slackStripeErrorPostMsg<\/a>"],[0,73,"<a href=\"PaymentController.php.html#36474\">PaymentController::getStripeHostedPage<\/a>"],[0,5,"<a href=\"PaymentController.php.html#36889\">PaymentController::sendStripeResponseSlackMessage<\/a>"],[0,3,"<a href=\"PaymentController.php.html#36917\">PaymentController::updateUserToken<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
